@@ -51,6 +51,7 @@
         <TextBox x:Name="te_r" HorizontalAlignment="Left" Height="22" Margin="722,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="35"/>
         <Button Content="Дегамування" HorizontalAlignment="Left" Margin="211,391,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_8" />
         <TextBox x:Name="text_ham" HorizontalAlignment="Left" Height="24" Margin="138,287,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,51,0,0" TextWrapping="Wrap" Text="Щоб виконувати дії необхідно текст перетворити на числа" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
 
     </Grid>
 </Window>

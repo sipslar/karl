@@ -208,7 +208,8 @@ namespace Qwer
                 BigInteger p, q, e1, d = 0, n, Fn;
                 Cor(out p, out q, out e1, out d, out n, out Fn);
                 int[] text = St2Ints(text_in.Text);
-                var Hash = Hash_cr( n,text);
+                BigInteger H = BigInteger.Parse(text_h.Text);
+                var Hash = Hash_cr( n,text,H);
                 var S = BigInteger.ModPow(Hash, d, n);
                 
                 text_out.Text = string.Format("Hash - {0}\n S - {1}", Hash,S);
@@ -218,9 +219,9 @@ namespace Qwer
                 MessageBox.Show(ex.Message);
             }
         }
-        public static BigInteger Hash_cr( BigInteger n, int[] m)
+        public static BigInteger Hash_cr( BigInteger n, int[] m, BigInteger H)
         {
-            BigInteger H = 0;
+           
             int length = m.Length;
             for (int i = 0; i < length; i++)
             {
@@ -284,6 +285,6 @@ namespace Qwer
             string key = text_ham.Text;
             var rez = HamDecryption(Convert(text), Convert(key));
             out_ham.Text = new string(Convert(rez));
-        }
+        }    
     }
 }

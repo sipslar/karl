@@ -52,6 +52,10 @@
         <Button Content="Дегамування" HorizontalAlignment="Left" Margin="211,391,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_8" />
         <TextBox x:Name="text_ham" HorizontalAlignment="Left" Height="24" Margin="138,287,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250"/>
         <TextBlock HorizontalAlignment="Left" Margin="34,51,0,0" TextWrapping="Wrap" Text="Щоб виконувати дії необхідно текст перетворити на числа" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
-
+        <TextBlock HorizontalAlignment="Left" Margin="292,10,0,0" TextWrapping="Wrap" Text="H0=" VerticalAlignment="Top" Height="22" FontWeight="Bold" FontSize="14" Width="32" />
+        <TextBox x:Name="text_h" Text="0" HorizontalAlignment="Left" Height="22" Margin="326,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="229,32,0,0" TextWrapping="Wrap" Text="Секретний ключ" VerticalAlignment="Top" FontSize="9"/>
+        <TextBlock HorizontalAlignment="Left" Margin="150,32,0,0" TextWrapping="Wrap" Text="Публічний ключ" VerticalAlignment="Top" FontSize="9"/>
+        <TextBlock HorizontalAlignment="Left" Margin="306,32,0,0" TextWrapping="Wrap" Text="Вектор ініціалізації" VerticalAlignment="Top" FontSize="9"/>
     </Grid>
 </Window>

@@ -9,7 +9,7 @@
     <Grid  >
 
         <Rectangle Fill="#FF18E692" HorizontalAlignment="Left" Height="273" Margin="0,272,0,0" Stroke="Black" VerticalAlignment="Top" Width="500"/>
-        <Rectangle Fill="#FF963AD6" HorizontalAlignment="Left" Height="273" Margin="499,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="279"/>
+        <Rectangle Fill="#FF963AD6" HorizontalAlignment="Left" Height="273" Margin="499,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="293"/>
         <Rectangle Fill="#FF3333DA" HorizontalAlignment="Left" Height="273" Stroke="Black" VerticalAlignment="Top" Width="500"/>
 
         <TextBlock HorizontalAlignment="Left" Margin="13,10,0,0" TextWrapping="Wrap" Text="p=" VerticalAlignment="Top" Height="22" FontWeight="Bold" FontSize="14" Width="21" />
@@ -33,7 +33,7 @@
         <Button Content="Ейлер" HorizontalAlignment="Left" Margin="511,44,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_4"/>
         <TextBox x:Name="text_e_out" HorizontalAlignment="Left" Height="22" Margin="511,69,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="text_e_b" HorizontalAlignment="Left" Height="22" Margin="580,17,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
-        <TextBlock HorizontalAlignment="Left" Margin="621,134,0,0" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" Height="22" FontWeight="Bold" FontSize="14" Width="22" />
+        <TextBlock HorizontalAlignment="Left" Margin="621,134,0,0" TextWrapping="Wrap" Text="=" VerticalAlignment="Top" Height="22" FontWeight="Bold" FontSize="14" Width="22" TextAlignment="Center" />
         <TextBox x:Name="t1" HorizontalAlignment="Left" Height="22" Margin="512,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="35"/>
         <TextBox x:Name="t2" HorizontalAlignment="Left" Height="22" Margin="586,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="35"/>
         <Button Content="MOD" HorizontalAlignment="Left" Margin="549,135,0,0" VerticalAlignment="Top" Width="35" Click="Button_Click_5"/>
@@ -54,8 +54,12 @@
         <TextBlock HorizontalAlignment="Left" Margin="34,51,0,0" TextWrapping="Wrap" Text="Щоб виконувати дії необхідно текст перетворити на числа" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
         <TextBlock HorizontalAlignment="Left" Margin="292,10,0,0" TextWrapping="Wrap" Text="H0=" VerticalAlignment="Top" Height="22" FontWeight="Bold" FontSize="14" Width="32" />
         <TextBox x:Name="text_h" Text="0" HorizontalAlignment="Left" Height="22" Margin="326,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30"/>
-        <TextBlock HorizontalAlignment="Left" Margin="229,32,0,0" TextWrapping="Wrap" Text="Секретний ключ" VerticalAlignment="Top" FontSize="9"/>
-        <TextBlock HorizontalAlignment="Left" Margin="150,32,0,0" TextWrapping="Wrap" Text="Публічний ключ" VerticalAlignment="Top" FontSize="9"/>
+        <TextBlock HorizontalAlignment="Left" Margin="226,32,0,0" TextWrapping="Wrap" Text="Секретний ключ" VerticalAlignment="Top" FontSize="9"/>
+        <TextBlock HorizontalAlignment="Left" Margin="148,32,0,0" TextWrapping="Wrap" Text="Публічний ключ" VerticalAlignment="Top" FontSize="9"/>
         <TextBlock HorizontalAlignment="Left" Margin="306,32,0,0" TextWrapping="Wrap" Text="Вектор ініціалізації" VerticalAlignment="Top" FontSize="9"/>
+        <TextBlock HorizontalAlignment="Left" Margin="238,271,0,0" TextWrapping="Wrap" Text="Гамма" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,295,0,0" TextWrapping="Wrap" Text="Вхідне повідом" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="456,9,0,0" TextWrapping="Wrap" Text="RSA" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" TextDecorations="Underline"/>
+        <TextBlock HorizontalAlignment="Left" Margin="13,35,0,0" TextWrapping="Wrap" Text="n = p*q" VerticalAlignment="Top" FontWeight="Bold" TextDecorations="Underline"/>
     </Grid>
 </Window>
